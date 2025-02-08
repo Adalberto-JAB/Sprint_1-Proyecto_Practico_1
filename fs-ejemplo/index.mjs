@@ -1,7 +1,7 @@
 import fs from 'fs';
 
 // Lee un archivo de manera asincrona
-fs.readFile('./data/example.txt', 'utf-8', (err, data) => {
+fs.readFile('./data/example.txt', 'utf8', (err, data) => {
   if ( err ) throw err;
   console.log('Contenido del archivo:', data);
 });
